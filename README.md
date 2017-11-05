@@ -4,6 +4,7 @@
 
 colaboradores
 
+INtegrantes Grupo Winners, Universidad EAN.
 
 MARÍA VICTORIA CASTELLANOS CAVIEDES
 LUIS FERNANDO BERNAL HERRERA
