@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html  lang="es">
+<head>
+<meta charset="UTF-8">
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?v3"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="Jquery/jquery.gomap-1.3.3.min.js"></script>
+<title>Avance - Map</title>
+<script>
+$(document).ready(function(){
+	$("#mapa").goMap({
+		latitude:4.603375,
+		longitude:-74.073923,
+		zoom:15,
+		maptype:"TERRAIN",
+		scaleControl:true
+	});
+	$.goMap.createMarker({
+		latitude:4.603471,
+		longitude:-74.074051,
+		title:"Avance",
+		html:{
+			content:"<h2>Avance Tecnología & Servicios</h2>",
+			popup:true
+		}
+	});
+}); 
+</script>
+</head>
+<body>
+	<div><h2>Ubicación</h2></div>
+	<div id="mapa" style="background-color:blue; height:550px; width:100%; margin:auto;"></div>
+</body>
+</html>
